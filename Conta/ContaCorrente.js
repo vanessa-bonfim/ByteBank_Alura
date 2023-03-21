@@ -1,4 +1,4 @@
-import { Conta } from "./Conta/Conta.js";
+import { Conta } from "./Conta.js";
 
 export class ContaCorrente extends Conta { // extends diz que CC tem uma herda(Herança) Conta.
     static numeroDeContas = 0;

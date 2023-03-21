@@ -29,8 +29,9 @@ export class Conta { //Esse tipo de classe que é pensada para não ser instanci
         return this._saldo;
     }
 
+    /*Método abstrato*/
     sacar(valor) {
-
+        throw new Error("O método Casar da conta é abstrato")
     }
     
     _sacar(valor, taxa){
